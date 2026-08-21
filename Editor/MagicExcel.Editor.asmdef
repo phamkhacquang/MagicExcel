@@ -1,0 +1,16 @@
+{
+    "name": "MagicExcel.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:168b0de8d171e8f4392ef629e5a0cb9a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
