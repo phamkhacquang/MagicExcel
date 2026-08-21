@@ -130,8 +130,7 @@ Notes:
 
 - `bool` also accepts integers: `0` is `false`, any non-zero value is `true`
 - enums are parsed by name, case-insensitively
-- arrays are comma-separated inside one cell
- - arrays are separated by comma, semicolon, or newlines inside one cell
+- arrays are separated by comma, semicolon, or newlines inside one cell
 - if multiple spreadsheets contain the same sheet name, only the first one is used
 
 ## Runtime usage
