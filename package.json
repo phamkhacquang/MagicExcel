@@ -1,0 +1,12 @@
+{
+  "name": "com.everest.magicexcel",
+  "version": "1.0.0",
+  "displayName": "Magic Excel",
+  "description": "Google Sheet data importer.",
+  "unity": "2022.3",
+  "author": {
+    "name": "quangpk"
+  },
+  "license": "MIT",
+  "documentationUrl": "http://github.com/phamkhacquang/MagicExcel"
+}

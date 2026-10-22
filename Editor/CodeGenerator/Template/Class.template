@@ -1,0 +1,14 @@
+{{#each usingDirectives}}
+using {{this}};
+{{/each}}
+
+namespace {{namespace}}
+{
+    [Serializable]
+    public partial class {{className}}
+    {
+    {{#each fields}}
+        [field: SerializeField] public {{type}} {{name}} { get; private set; }
+    {{/each}}
+    }
+}

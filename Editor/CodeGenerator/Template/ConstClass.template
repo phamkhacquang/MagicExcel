@@ -1,0 +1,17 @@
+{{#each usingDirectives}}
+using {{this}};
+{{/each}}
+
+namespace {{namespace}}
+{
+    public static class {{className}}
+    {
+    {{#each fields}}
+        {{#if isArray}}
+        public static readonly {{type}} {{name}} = new[] { {{constValue}} };
+        {{else}}
+        public const {{type}} {{name}} = {{constValue}};
+        {{/if}}
+    {{/each}}
+    }
+}

@@ -1,0 +1,18 @@
+using UnityEngine;
+
+namespace {{namespace}}
+{
+    public class ExcelData : ScriptableObject 
+    {
+        private static ExcelData instance;
+
+        {{#each fields}}
+        [SerializeField] {{this}}[] m_{{@key}};
+        public static {{this}}[] {{@key}} => instance.m_{{@key}};
+
+        {{/each}}
+        public void Init() {
+            instance = this;
+        }
+    }
+}
